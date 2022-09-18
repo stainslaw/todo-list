@@ -9,11 +9,6 @@
 :root {
   --grey: rgba(100, 100, 111, 1);
   --dark: #374151;
-  --darker: #1F2937;
-  --darkest: #111827;
-  --greyVid: #6b7280;
-  --light: #EEE;
-  --purple: #8b5cf6;
 }
 
 body {
@@ -115,7 +110,6 @@ header {
     margin: 0px 35px;
 } 
 
-
 /* MAIN DISPLAY  */
 
 display {
@@ -139,15 +133,6 @@ today-header, tomorrow-header, week-header {
   border-bottom: white 1px solid;
   margin: 0 15%;
 }
-
-/* #new-task-form {
-  display: grid;
-  grid-row: 1 / 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 
 #new-task-input, #new-task-submit{
   font-size: 20px;
@@ -278,12 +263,3 @@ edit:hover {
 delete:hover {
   background: crimson;
 }
-
-
-
-
-
-
-
- 
-
