@@ -74,7 +74,7 @@ function render() {
         });
     });
 
-  
+
     $header.appendChild($form)
     $display.appendChild($header);
     $display.appendChild($listarea);
